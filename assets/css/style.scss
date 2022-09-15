@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400;1,600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.664);
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    padding-top: 100px;
+  &-box {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    background: url("https://cdn.pixabay.com/photo/2017/02/06/10/54/sad-2042536_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 6%;
+  }
+  button {
+    height: 35px;
+    background: rgb(0, 0, 0);
+    border: none;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-size: 13px;
+  }
+}
+
+// buttons - individual styling
+.experience {
+    position: absolute;
+   width: 140px;
+  right: 455px;
+  top: 140px;
+
+  
+}
+.web-designer{
+    position: absolute;
+    right: 460px;
+    top: 200px;
+}
+.qualification{
+    position: absolute;
+    left: 470px;
+    top: 370px;
+}
+.emoji{
+    position: absolute;
+    left: 515px;
+    top: 130px;
+    
+}
+.name{
+    position: absolute;
+    left: 625px;
+    top: 440px;
+}
+.web-dev{
+    position: absolute;
+    left: 510px;
+    top: 290px;
+}
