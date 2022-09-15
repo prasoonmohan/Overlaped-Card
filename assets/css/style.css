@@ -67,4 +67,41 @@ body {
   position: absolute;
   left: 510px;
   top: 290px;
+}
+
+@media only screen and (max-width: 360px) {
+  .container-box {
+    position: relative;
+  }
+  .experience {
+    position: absolute;
+    width: 140px;
+    right: 3px;
+    top: 140px;
+  }
+  .web-designer {
+    position: absolute;
+    right: 3px;
+    top: 190px;
+  }
+  .qualification {
+    position: absolute;
+    left: 3px;
+    top: 370px;
+  }
+  .emoji {
+    position: absolute;
+    left: 9px;
+    top: 140px;
+  }
+  .name {
+    position: absolute;
+    left: 125px;
+    top: 440px;
+  }
+  .web-dev {
+    position: absolute;
+    left: 3px;
+    top: 295px;
+  }
 }/*# sourceMappingURL=style.css.map */
